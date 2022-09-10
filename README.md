@@ -3,7 +3,7 @@
 
 Simple JWT Authorization made with ExpressJs and MongoDB.
 
-Example on how to implement user Authorization, with user information encrypted and stored
+Example on how to implement user authorization, with user information encrypted and stored
 in a MongoDB type schema. 
 
 ## Requirements
