@@ -1,7 +1,7 @@
 
 # JWT Authorization
 
-Simple JWT Authorization made with ExpressJs and MongoDB.
+Simple JWT Authorization template made with ExpressJs and MongoDB.
 
 Example on how to implement user authorization, with user information encrypted and stored
 in a MongoDB type schema. 
@@ -19,6 +19,9 @@ This repo requires the following to run:
   * [JWT.IO][jsonwebtoken]
   * [mongoose][mongoose]
 
+#### **Remember** to create a .env file in ./server
+ - **DATABASE:** Your mongoDB path.
+ - **JWT_TOKEN:** Your JWT secret.
 
 [node]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
