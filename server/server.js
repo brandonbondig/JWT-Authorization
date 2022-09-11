@@ -2,10 +2,11 @@ const express = require("express")
 const cors = require('cors')
 const mongoose = require("mongoose")
 const app = express()
+require('dotenv').config()
 
 // Connect server to mongoose dbs
 
-mongoose.connect("mongodb+srv://mongo:mongo@playground.3qfbq5z.mongodb.net/backend?retryWrites=true&w=majority", () => {
+mongoose.connect(process.env.DATABASE, () => {
     console.log("connected");
 })
 
