@@ -4,7 +4,7 @@
 Simple JWT Authorization template made with ExpressJs and MongoDB.
 
 Example on how to implement user authorization, with user information encrypted and stored
-in a MongoDB type databse. 
+in a MongoDB type database. 
 
 ## Requirements
 
